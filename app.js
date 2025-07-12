@@ -1,3 +1,49 @@
+const Header = () => {
+    return (
+        <div className="header">   
+            <div className="logo-container">
+            <img src="https://cdn.vectorstock.com/i/500p/23/62/modern-organic-food-logo-and-natural-vector-53742362.jpg" />
+            
+             <div className="nav-items"> 
+                <ul> 
+                <li>Home</li>
+                <li>Aout Us</li>
+                <li>Contact Us</li>
+                <li>Cart</li>
+                </ul>
+
+             </div>
+            </div>  
+        </div>
+    )
+} 
+    
+    const AppLayout = () => {
+    return ( 
+            <div className="app">
+                <Header/>
+            </div>  
+               )
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<AppLayout/>);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 *<div id="parent">
     <div id="child1"> 
@@ -12,11 +58,14 @@
 React Element (Object) = HTML Element (Browser Understand)
 */
 
+/*
 
 import React from "react";
 import ReactDOM from "react-dom/client"
 
-const heading = React.createElement
+*/
+
+/**const heading = React.createElement
 ("div", {id:"parent"}, [
 
 React.createElement
@@ -33,3 +82,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 console.log(heading); // Object
 //JSX
+**/
+
+
+
+
+
