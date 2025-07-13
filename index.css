@@ -1,5 +1,64 @@
-#heading{ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black
+}
 
-    color: gray;
+.logo {
+     display: flex;
+     width: 150px;
+     padding: 3px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
     
+}
+
+.nav-items > ul > li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-items > ul:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.nav-items {
+
+    padding: 0px 20px;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 182px;
+    
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.search {
+    padding: 20px;
+}
+
+.res-logo{
+    height: 100px;
+    width: 173px;
+    padding: 5px;
+}
+
+.res-container{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 5px;
+}
+
+.body{
+    padding: 5px;
 }
