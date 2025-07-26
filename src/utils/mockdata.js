@@ -1,60 +1,60 @@
-const reslist = [
+const reslist = 
+[
 {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
 "info": {
-"id": "55054",
-"name": "SanToshi's Restaurant",
-"cloudinaryImageId": "fogfnatzbqcn5nytgb7e",
-"locality": "Dharampeth",
-"areaName": "Dharampeth",
-"costForTwo": "₹300 for two",
+"id": "790836",
+"name": "Chinese Wok",
+"cloudinaryImageId": "b4817ea5bb972089f419c6f14e5a0bdd",
+"locality": "Dhantoli",
+"areaName": "VR Mall Nagpur",
+"costForTwo": "₹250 for two",
 "cuisines": [
-"South Indian", "Snacks", "Desserts", "Beverages", "Sweets"],
-"avgRating": 4.7,
-"parentId": "168579",
-"avgRatingString": "4.7",
-"totalRatingsString": "23K+",
+"Chinese",
+"Asian",
+"Tibetan",
+"Desserts"
+],
+"avgRating": 4.2,
+"parentId": "61955",
+"avgRatingString": "4.2",
+"totalRatingsString": "960",
 "sla": {
-"deliveryTime": 24,
-"lastMileTravel": 4.8,
+"deliveryTime": 30,
+"lastMileTravel": 1,
 "serviceability": "SERVICEABLE",
-"slaString": "20-25 mins",
-"lastMileTravelString": "4.8 km",
+"slaString": "25-30 mins",
+"lastMileTravelString": "1.0 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2025-07-13 22:30:00",
+"nextCloseTime": "2025-07-26 23:00:00",
 "opened": true
 },
-"badges": {
-"imageBadges": [
-{
-"imageId": "Rxawards/_CATEGORY-South%20Indian.png",
-"description": "Delivery!"
-}
-]
-},
+"badges": {},
 "isOpen": true,
-"aggregatedDiscountInfoV2": {},
 "type": "F",
 "badgesV2": {
 "entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Delivery!",
-"imageId": "Rxawards/_CATEGORY-South%20Indian.png"
-}
-}
-]
-},
+"imageBased": {},
 "textBased": {},
 "textExtendedBadges": {}
 }
 },
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹129"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 "differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
 "lottie": {},
 "video": {}
 }
@@ -64,8 +64,8 @@ const reslist = [
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "4.2",
-"ratingCount": "6.9K+"
+"rating": "2.4",
+"ratingCount": "24"
 },
 "source": "GOOGLE",
 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -73,49 +73,48 @@ const reslist = [
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/nagpur/reddys-gokul-brindavan-restaurant-dharampeth-rest55054",
+"link": "https://www.swiggy.com/city/nagpur/chinese-wok-dhantoli-vr-mall-nagpur-rest790836",
+"text": "RESTAURANT_MENU",
 "type": "WEBLINK"
-}
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
 },
 {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
 "info": {
-"id": "678820",
-"name": "Sameeksha's Kitchen",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/23/6a675f98-f8aa-4dc9-b452-82a474b27065_678820.JPG",
-"locality": "Poonam Chamber Mall",
-"areaName": "Byramji Town",
-"costForTwo": "₹400 for two",
+"id": "188503",
+"name": "Pizza Hut",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/c53517b8-dcb2-4a61-bfa7-9d667beded9f_188503.JPG",
+"locality": "Untkhana",
+"areaName": "Untkhana",
+"costForTwo": "₹300 for two",
 "cuisines": [
-"Desserts"
+"Pizzas"
 ],
-"avgRating": 4.5,
-"parentId": "1040",
-"avgRatingString": "4.5",
-"totalRatingsString": "1.2K+",
+"avgRating": 4.3,
+"parentId": "721",
+"avgRatingString": "4.3",
+"totalRatingsString": "4.6K+",
 "sla": {
-"deliveryTime": 26,
-"lastMileTravel": 5,
+"deliveryTime": 41,
+"lastMileTravel": 1.3,
 "serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "5.0 km",
+"slaString": "40-45 mins",
+"lastMileTravelString": "1.3 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2025-07-14 01:00:00",
+"nextCloseTime": "2025-07-26 23:00:00",
 "opened": true
 },
 "badges": {
 "imageBadges": [
 {
-"imageId": "Rxawards/_CATEGORY-Desserts.png",
+"imageId": "Rxawards/_CATEGORY-Pizza.png",
 "description": "Delivery!"
-},
-{
-"imageId": "newg.png",
-"description": "Gourmet"
 }
 ]
 },
@@ -128,13 +127,7 @@ const reslist = [
 {
 "attributes": {
 "description": "Delivery!",
-"imageId": "Rxawards/_CATEGORY-Desserts.png"
-}
-},
-{
-"attributes": {
-"description": "Gourmet",
-"imageId": "newg.png"
+"imageId": "Rxawards/_CATEGORY-Pizza.png"
 }
 }
 ]
@@ -144,12 +137,101 @@ const reslist = [
 }
 },
 "aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹49"
+"header": "50% OFF",
+"subHeader": "UPTO ₹100"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 "differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.9",
+"ratingCount": "2.7K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/pizza-hut-untkhana-rest188503",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "790837",
+"name": "Big Bowl",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/30548ac4-2e57-4c1d-ba73-8372f74a1ad2_790837.JPG",
+"locality": "Mouza Jattarodi",
+"areaName": "VR Mall Nagpur",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"North Indian",
+"Chinese",
+"Tibetan",
+"Desserts"
+],
+"avgRating": 4.2,
+"parentId": "434792",
+"avgRatingString": "4.2",
+"totalRatingsString": "797",
+"sla": {
+"deliveryTime": 25,
+"lastMileTravel": 1,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "1.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-26 23:00:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹129"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
 "lottie": {},
 "video": {}
 }
@@ -165,49 +247,50 @@ const reslist = [
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/nagpur/theobroma-poonam-chamber-mall-byramji-town-rest678820",
+"link": "https://www.swiggy.com/city/nagpur/big-bowl-mouza-jattarodi-vr-mall-nagpur-rest790837",
+"text": "RESTAURANT_MENU",
 "type": "WEBLINK"
-}
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
 },
 {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
 "info": {
-"id": "553826",
-"name": "Tejaswini Coffee",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/17/96e838d5-2a67-488d-8722-750e6077132e_553826.JPG",
-"locality": "Dharampeth",
-"areaName": "Dharampeth",
+"id": "54604",
+"name": "Domino's Pizza",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/14/10c8e061-f1a3-4c63-9507-22aca6e01008_54604.JPG",
+"locality": "Sitabuldi",
+"areaName": "Sitabuldi",
 "costForTwo": "₹400 for two",
 "cuisines": [
-"Beverages",
-"Cafe",
-"Snacks",
-"Desserts",
-"Bakery",
-"Ice Cream"
+"Pizzas",
+"Italian",
+"Pastas",
+"Desserts"
 ],
-"avgRating": 4.6,
-"parentId": "195515",
-"avgRatingString": "4.6",
-"totalRatingsString": "1.3K+",
+"avgRating": 4.4,
+"parentId": "2456",
+"avgRatingString": "4.4",
+"totalRatingsString": "3.2K+",
 "sla": {
-"deliveryTime": 20,
-"lastMileTravel": 4.5,
+"deliveryTime": 25,
+"lastMileTravel": 2.4,
 "serviceability": "SERVICEABLE",
-"slaString": "15-20 mins",
-"lastMileTravelString": "4.5 km",
+"slaString": "20-25 mins",
+"lastMileTravelString": "2.4 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2025-07-13 23:59:00",
+"nextCloseTime": "2025-07-26 23:59:00",
 "opened": true
 },
 "badges": {
 "imageBadges": [
 {
-"imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Cafe.png",
+"imageId": "Rxawards/_CATEGORY-Pizza.png",
 "description": "Delivery!"
 }
 ]
@@ -221,7 +304,7 @@ const reslist = [
 {
 "attributes": {
 "description": "Delivery!",
-"imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Cafe.png"
+"imageId": "Rxawards/_CATEGORY-Pizza.png"
 }
 }
 ]
@@ -231,12 +314,19 @@ const reslist = [
 }
 },
 "aggregatedDiscountInfoV3": {
-"header": "20% OFF",
-"discountTag": "FLAT DEAL"
+"header": "ITEMS",
+"subHeader": "AT ₹79"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 "differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
 "lottie": {},
 "video": {}
 }
@@ -246,7 +336,7 @@ const reslist = [
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "4.3",
+"rating": "4.0",
 "ratingCount": "1.7K+"
 },
 "source": "GOOGLE",
@@ -255,133 +345,53 @@ const reslist = [
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/nagpur/starbucks-coffee-dharampeth-rest553826",
+"link": "https://www.swiggy.com/city/nagpur/dominos-pizza-sitabuldi-rest54604",
+"text": "RESTAURANT_MENU",
 "type": "WEBLINK"
-}
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
 },
 {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
 "info": {
-"id": "76405",
-"name": "Cafe Coffee Day",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/19/6fa4753b-2aaf-4f73-8db8-2605f7dbedc7_76405.JPG",
-"locality": "Futala Road",
-"areaName": "Civil Lines",
-"costForTwo": "₹400 for two",
+"id": "644868",
+"name": "Burger King",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/e221bb54-7067-4e06-bc29-9014e0b04b66_644868.jpg",
+"locality": "VR Mall",
+"areaName": "Nandanvan",
+"costForTwo": "₹350 for two",
 "cuisines": [
-"Beverages",
-"Cafe",
-"Snacks",
-"Desserts",
 "Burgers",
-"Ice Cream",
-"Bakery",
-"Fast Food"
+"American"
 ],
-"avgRating": 4.6,
-"parentId": "1",
-"avgRatingString": "4.6",
-"totalRatingsString": "1.1K+",
+"avgRating": 4.3,
+"parentId": "166",
+"avgRatingString": "4.3",
+"totalRatingsString": "7.0K+",
 "sla": {
-"deliveryTime": 21,
-"lastMileTravel": 3.7,
+"deliveryTime": 26,
+"lastMileTravel": 1,
 "serviceability": "SERVICEABLE",
-"slaString": "20-25 mins",
-"lastMileTravelString": "3.7 km",
+"slaString": "25-30 mins",
+"lastMileTravelString": "1.0 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2025-07-13 23:45:00",
-"opened": true
-},
-"badges": {},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹99"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/nagpur/cafe-coffee-day-futala-road-civil-lines-rest76405",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "53484",
-"name": "Haldiram's Restaurant",
-"cloudinaryImageId": "1abb89624b491497c8cff182d95ac457",
-"locality": "Sitabuldi",
-"areaName": "Sitabuldi",
-"costForTwo": "₹400 for two",
-"cuisines": [
-"South Indian",
-"Biryani",
-"Chaat",
-"Thalis",
-"Bakery",
-"Sweets",
-"Desserts"
-],
-"avgRating": 4.5,
-"veg": true,
-"parentId": "351771",
-"avgRatingString": "4.5",
-"totalRatingsString": "13K+",
-"sla": {
-"deliveryTime": 20,
-"lastMileTravel": 2.5,
-"serviceability": "SERVICEABLE",
-"slaString": "15-20 mins",
-"lastMileTravelString": "2.5 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2025-07-13 23:30:00",
+"nextCloseTime": "2025-07-27 05:00:00",
 "opened": true
 },
 "badges": {
 "imageBadges": [
 {
-"imageId": "android/static-assets/icons/big_rx.png",
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
 "description": "bolt!"
 },
 {
-"imageId": "Rxawards/_CATEGORY-Thali.png",
+"imageId": "Rxawards/_CATEGORY-Burger.png",
 "description": "Delivery!"
-},
-{
-"imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-"description": "OnlyOnSwiggy"
 }
 ]
 },
@@ -394,344 +404,13 @@ const reslist = [
 {
 "attributes": {
 "description": "bolt!",
-"imageId": "android/static-assets/icons/big_rx.png"
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
 }
 },
 {
 "attributes": {
 "description": "Delivery!",
-"imageId": "Rxawards/_CATEGORY-Thali.png"
-}
-},
-{
-"attributes": {
-"description": "OnlyOnSwiggy",
-"imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹49"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "4.2",
-"ratingCount": "17K+"
-},
-"source": "GOOGLE",
-"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/nagpur/haldirams-restaurant-sitabuldi-rest53484",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "740318",
-"name": "CakeZone Patisserie SSD",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/2db6f24f-8645-46e6-8816-cd817633faf1_740318.jpg",
-"locality": "Avenue road",
-"areaName": "Nandanvan",
-"costForTwo": "₹200 for two",
-"cuisines": [
-"Bakery",
-"Desserts",
-"Ice Cream",
-"Sweets"
-],
-"avgRating": 4.4,
-"parentId": "7003",
-"avgRatingString": "4.4",
-"totalRatingsString": "714",
-"sla": {
-"deliveryTime": 41,
-"lastMileTravel": 2.4,
-"serviceability": "SERVICEABLE",
-"slaString": "40-45 mins",
-"lastMileTravelString": "2.4 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2025-07-14 03:00:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "android/static-assets/icons/big_rx.png",
-"description": "bolt!"
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "bolt!",
-"imageId": "android/static-assets/icons/big_rx.png"
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹69"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/nagpur/cakezone-patisserie-avenue-road-nandanvan-rest740318",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "510859",
-"name": "Kwality Walls Ice Cream and Aloo",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/eb7f4b65-43b8-47a2-af88-6350fbe9fcd2_510859.JPG",
-"locality": "Surendra Nagar",
-"areaName": "Manish Nagar",
-"costForTwo": "₹200 for two",
-"cuisines": [
-"Desserts",
-"Ice Cream",
-"Ice Cream Cakes"
-],
-"avgRating": 4.7,
-"veg": true,
-"parentId": "582",
-"avgRatingString": "4.7",
-"totalRatingsString": "1.7K+",
-"sla": {
-"deliveryTime": 27,
-"lastMileTravel": 4.9,
-"serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "4.9 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2025-07-13 23:59:00",
-"opened": true
-},
-"badges": {},
-"isOpen": true,
-"aggregatedDiscountInfoV2": {},
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/nagpur/kwality-walls-ice-cream-and-more-surendra-nagar-manish-nagar-rest510859",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "741991",
-"name": "Cheesecakes By CakeZone",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/aca6431c-f3a8-414d-8175-799fdb32c918_741991.jpg",
-"locality": "Roke Sadan",
-"areaName": "Nandanvan",
-"costForTwo": "₹200 for two",
-"cuisines": [
-"Desserts",
-"Ice Cream",
-"Juices",
-"Bengali"
-],
-"avgRating": 3.9,
-"veg": true,
-"parentId": "348057",
-"avgRatingString": "3.9",
-"totalRatingsString": "94",
-"sla": {
-"deliveryTime": 30,
-"lastMileTravel": 2.4,
-"serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "2.4 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2025-07-14 03:00:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "newg.png",
-"description": "Gourmet"
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Gourmet",
-"imageId": "newg.png"
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹69"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/nagpur/cheesecakes-by-cakezone-roke-sadan-nandanvan-rest741991",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "53534",
-"name": "Airport Centre Point - Wardha Road - CHANDA",
-"cloudinaryImageId": "614cef1b8b369f8a370d749be049a174",
-"locality": "Wardha Road",
-"areaName": "Wardha Road",
-"costForTwo": "₹300 for two",
-"cuisines": [
-"Biryani",
-"Chinese",
-"Tandoor",
-"Beverages"
-],
-"avgRating": 4.5,
-"parentId": "618436",
-"avgRatingString": "4.5",
-"totalRatingsString": "10K+",
-"sla": {
-"deliveryTime": 35,
-"lastMileTravel": 7,
-"serviceability": "SERVICEABLE",
-"slaString": "30-35 mins",
-"lastMileTravelString": "7.0 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2025-07-14 05:00:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "newg.png",
-"description": "Gourmet"
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Gourmet",
-"imageId": "newg.png"
+"imageId": "Rxawards/_CATEGORY-Burger.png"
 }
 }
 ]
@@ -742,12 +421,19 @@ const reslist = [
 },
 "aggregatedDiscountInfoV3": {
 "header": "₹100 OFF",
-"subHeader": "ABOVE ₹299",
+"subHeader": "ABOVE ₹199",
 "discountTag": "FLAT DEAL"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 "differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
 "lottie": {},
 "video": {}
 }
@@ -757,8 +443,200 @@ const reslist = [
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "3.9",
-"ratingCount": "135"
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/burger-king-vr-mall-nandanvan-rest644868",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1009788",
+"name": "Baskin Robbins - Ice Cream Desserts",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/c1cacaa0-1fc0-40fc-a00c-c11bf1e98fbe_1009788.JPG",
+"locality": "NAGPUR",
+"areaName": "TATYA TOPE NAGAR",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"Desserts",
+"Ice Cream"
+],
+"avgRating": 4.4,
+"veg": true,
+"parentId": "5588",
+"avgRatingString": "4.4",
+"totalRatingsString": "141",
+"sla": {
+"deliveryTime": 28,
+"lastMileTravel": 5,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "5.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-26 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png",
+"description": "Delivery!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Delivery!",
+"imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹49"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/baskin-robbins-ice-cream-desserts-tatya-tope-nagar-rest1009788",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "739172",
+"name": "Olio - The Wood Fired Pizzeria",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/87ce8110-c4f7-4d97-a16f-4a860bf6ff51_739172.JPG",
+"locality": "Ramdaspeth",
+"areaName": "Gandhibagh",
+"costForTwo": "₹300 for two",
+"cuisines": [
+"Pizzas",
+"Pastas",
+"Italian",
+"Fast Food",
+"Snacks",
+"Beverages",
+"Desserts"
+],
+"avgRating": 4.1,
+"parentId": "11633",
+"avgRatingString": "4.1",
+"totalRatingsString": "1.2K+",
+"sla": {
+"deliveryTime": 38,
+"lastMileTravel": 2.4,
+"serviceability": "SERVICEABLE",
+"slaString": "35-40 mins",
+"lastMileTravelString": "2.4 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-27 04:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "newg.png",
+"description": "Gourmet"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Gourmet",
+"imageId": "newg.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "2.7",
+"ratingCount": "3"
 },
 "source": "GOOGLE",
 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -766,12 +644,519 @@ const reslist = [
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-a8a52e3b-ecb8-4c7a-b861-7d9bb56628a5"
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/nagpur/airport-centre-point-wardha-road-wardha-road-rest53534",
+"link": "https://www.swiggy.com/city/nagpur/olio-the-wood-fired-pizzeria-ramdaspeth-gandhibagh-rest739172",
+"text": "RESTAURANT_MENU",
 "type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "197570",
+"name": "Gangour",
+"cloudinaryImageId": "ttgitgu2ji7xywuthpis",
+"locality": "Nandanvan",
+"areaName": "Nandanvan",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Sweets",
+"Thalis",
+"Snacks",
+"Desserts"
+],
+"avgRating": 4,
+"veg": true,
+"parentId": "6009",
+"avgRatingString": "4.0",
+"totalRatingsString": "138",
+"sla": {
+"deliveryTime": 20,
+"lastMileTravel": 0.3,
+"serviceability": "SERVICEABLE",
+"slaString": "20-25 mins",
+"lastMileTravelString": "0.3 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-26 21:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20RX%20listing%2018px.png",
+"description": "bolt!"
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "pureveg"
 }
+]
+},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "bolt/big%20RX%20listing%2018px.png"
+}
+},
+{
+"attributes": {
+"description": "pureveg",
+"imageId": "v1695133679/badges/Pure_Veg111.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/gangour-nandanvan-rest197570",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "6448",
+"name": "Hotel Tejaswini",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/e221bb54-7067-4e06-bc29-9014e0b04b66_644868.jpg",
+"locality": "VR Mall",
+"areaName": "Nandanvan",
+"costForTwo": "₹350 for two",
+"cuisines": [
+"Burgers",
+"American"
+],
+"avgRating": 4.3,
+"parentId": "166",
+"avgRatingString": "4.3",
+"totalRatingsString": "7.0K+",
+"sla": {
+"deliveryTime": 26,
+"lastMileTravel": 1,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "1.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-27 05:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+},
+{
+"imageId": "Rxawards/_CATEGORY-Burger.png",
+"description": "Delivery!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
+}
+},
+{
+"attributes": {
+"description": "Delivery!",
+"imageId": "Rxawards/_CATEGORY-Burger.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "₹100 OFF",
+"subHeader": "ABOVE ₹199",
+"discountTag": "FLAT DEAL"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/burger-king-vr-mall-nandanvan-rest644868",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "100788",
+"name": "SanToshi's",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/c1cacaa0-1fc0-40fc-a00c-c11bf1e98fbe_1009788.JPG",
+"locality": "NAGPUR",
+"areaName": "TATYA TOPE NAGAR",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"Desserts",
+"Ice Cream"
+],
+"avgRating": 4.4,
+"veg": true,
+"parentId": "5588",
+"avgRatingString": "4.4",
+"totalRatingsString": "141",
+"sla": {
+"deliveryTime": 28,
+"lastMileTravel": 5,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "5.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-26 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png",
+"description": "Delivery!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Delivery!",
+"imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹49"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/baskin-robbins-ice-cream-desserts-tatya-tope-nagar-rest1009788",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "73912",
+"name": "Samsung",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/87ce8110-c4f7-4d97-a16f-4a860bf6ff51_739172.JPG",
+"locality": "Ramdaspeth",
+"areaName": "Gandhibagh",
+"costForTwo": "₹300 for two",
+"cuisines": [
+"Pizzas",
+"Pastas",
+"Italian",
+"Fast Food",
+"Snacks",
+"Beverages",
+"Desserts"
+],
+"avgRating": 4.1,
+"parentId": "11633",
+"avgRatingString": "4.1",
+"totalRatingsString": "1.2K+",
+"sla": {
+"deliveryTime": 38,
+"lastMileTravel": 2.4,
+"serviceability": "SERVICEABLE",
+"slaString": "35-40 mins",
+"lastMileTravelString": "2.4 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-27 04:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "newg.png",
+"description": "Gourmet"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Gourmet",
+"imageId": "newg.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "2.7",
+"ratingCount": "3"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/olio-the-wood-fired-pizzeria-ramdaspeth-gandhibagh-rest739172",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "19750",
+"name": "Toshi",
+"cloudinaryImageId": "ttgitgu2ji7xywuthpis",
+"locality": "Nandanvan",
+"areaName": "Nandanvan",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Sweets",
+"Thalis",
+"Snacks",
+"Desserts"
+],
+"avgRating": 4,
+"veg": true,
+"parentId": "6009",
+"avgRatingString": "4.0",
+"totalRatingsString": "138",
+"sla": {
+"deliveryTime": 20,
+"lastMileTravel": 0.3,
+"serviceability": "SERVICEABLE",
+"slaString": "20-25 mins",
+"lastMileTravelString": "0.3 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-26 21:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20RX%20listing%2018px.png",
+"description": "bolt!"
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "pureveg"
+}
+]
+},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "bolt/big%20RX%20listing%2018px.png"
+}
+},
+{
+"attributes": {
+"description": "pureveg",
+"imageId": "v1695133679/badges/Pure_Veg111.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-0257eced-5a20-435e-b88c-8fc421b6cb79"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/nagpur/gangour-nandanvan-rest197570",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
 }
 ];
 
